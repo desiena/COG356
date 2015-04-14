@@ -39,7 +39,7 @@ input, select, textarea, th, td { font-size: 1em; }
 /*test*/
 ol.tree
 {
-	padding: 0 0 0 30px;
+	padding:  0 0 30px;
 	width: 3000px;
 }
 	li 
@@ -95,11 +95,11 @@ ol.tree
 	{
 		border: thin #000
 		margin: -1.25em 0 0 -44px; /* 20px */
-		padding: 1.563em 0 0 80px;
+		padding: 1.563em 1.563em 1.2em 80px;
 		height: auto;
 	}
 		li input:checked + ol > li { display: block; margin: 0 0 0.125em;  /* 2px */}
-		li input:checked + ol > li:last-child { margin: 0 0 0.063em; /* 1px */ }
+		li input:checked + ol > li:last-child { margin: 0.063em 0 0.063em; /* 1px */ }
 </style>
 </head>
 
@@ -116,13 +116,36 @@ Ace DeSiena<br />
       <li><a href="geb/geb1.pdf">First GEB Reading Assignment - Introduction</a></li>
       <li><a href="geb/GEB2MIU.pdf">Second GEB Reading Assignment - MIU System</a></li>
       <li><a href="geb/GEB3PQ.pdf">Third GEB Reading Assignment - PQ System</a></li>
-      <li><a href="geb/GEBPropLog.pdf">GEB Reading Assignment - Propositional Calculus</a></li>    
+      <li><a href="geb/GEBPropLog.pdf">Fourth GEB Reading Assignment - Propositional Calculus</a></li>    
     </ol>
   </li>
   <li>
     <label for="Problem Sets">Problem Sets</label> <input type="checkbox" /> 
     <ol>
       <li><a href="problems/TSPseudo.pdf">Traveling Salesman City Visiting Behavior</a></li>
+    </ol>
+  </li>
+  <li>
+    <label for="Misc">Music from Formal Systems</label> <input type="checkbox" /> 
+    <ol>
+      <li>
+	<label for"CFG Music">CFG Music</label><input type = "checkbox">
+	<ol>
+	  <li>Unstructured: "gh dq eq dh fh eq eq cq dq aw eh bh dq aq fq cq cq ah gq fh bq eq"</li>
+	  <li><a href="jfugueworkspace/CFGMusic.pdf">Derivation</a></li>
+	  <li><a href="tuneRTN.png">Recursive Transition Network</a></li>
+	  <li><audio controls><source src="jfugueworkspace/CFG.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></li>
+	  <li>Structured: "gw eq gq gq bq fq bh cq aq eq bq cq bq dh cq ai bi eh dq fh bq cq gw"</li>
+	  <li><audio controls><source src="jfugueworkspace/CFGStructured.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></li>
+	</ol>
+      </li>
+      <li>
+	<label for"Fractal Music">Fractal Music</label><input type = "checkbox">
+	<ol>
+	  <li><a href="problems/fractalMusic.pdf">Derivation</a></li>
+	  <li><audio controls><source src="jfugueworkspace/CantorsDrumMachine.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></li>
+        </ol>
+      </li>
       <li>
 	<label for="Markov Music">Markov Music</label> <input type="checkbox" />
 	<ol>
@@ -146,26 +169,6 @@ Ace DeSiena<br />
 	  </li>
 	</ol>
       </li>
-    </ol>
-  </li>
-  <li>
-    <label for="Misc">Misc.</label> <input type="checkbox" /> 
-    <ol>
-      <li>
-	<label for"CFG Music">CFG Music</label><input type = "checkbox">
-	<ol>
-	  <li>Unstructured: "gh dq eq dh fh eq eq cq dq aw eh bh dq aq fq cq cq ah gq fh bq eq"</li>
-	  <li><a href="jfugueworkspace/CFGMusic.pdf">Derivation</a></li>
-	  <li><audio controls><source src="jfugueworkspace/CFG.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></li>
-	  <li>Structured: "gw eq gq gq bq fq bh cq aq eq bq cq bq dh cq ai bi eh dq fh bq cq gw"</li>
-	  <li><audio controls><source src="jfugueworkspace/CFGStructured.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></li>
-	</ol>
-      </li>
-      <li>
-	<label for"Fractal Music">Fractal Music</label><input type = "checkbox">
-	<ol>
-	  <li><a href="problems/fractalMusic.pdf">Derivation</a></li>
-	  <li><audio controls><source src="jfugueworkspace/CantorsDrumMachine.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio></li>
     </ol>
   </li>
 </ol>
